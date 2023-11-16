@@ -9,7 +9,7 @@ public class Musica implements AdicionaisInterface{
     }
     @Override
     public double getValorAdicional(int numeroDias) {
-        return 0;
+        return 25 + numeroDias;
     }
     @Override
     public String getDescricao() {

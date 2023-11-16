@@ -9,7 +9,7 @@ public class Internet implements AdicionaisInterface{
     }
     @Override
     public double getValorAdicional(int numeroDias) {
-        return 0;
+        return mega * 0.05 * numeroDias;
     }
     @Override
     public String getDescricao() {
