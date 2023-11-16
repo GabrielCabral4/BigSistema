@@ -15,6 +15,7 @@ public class BigSessionController {
     private Map<Integer, AdicionaisInterface> adicionais;
     public BigSessionController(){
         this.planos = new HashMap<>();
+        this.adicionais = new HashMap<>();
     }
     public int cadastrarPlanoPreBig(String nome, String cpf, String numeroTelefone, int dias, double valorInicial, double valorExcedente){
         if(nome.isBlank()) throw new NullPointerException("Nome inválido!");
